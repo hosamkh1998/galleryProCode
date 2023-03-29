@@ -99,3 +99,8 @@ function onFilter() {
   });
   renderProducts();
 }
+
+function deleteFilter() {
+  document.querySelector(".filteredBy").value = "";
+  onFilter();
+}

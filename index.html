@@ -27,16 +27,27 @@
         <div class="col-12 bg-primary-subtle fs-4 fw-bolder p-3 header">
           <span class="text-center">מוצרי החנות פקיעין סלולר</span>
         </div>
-        <div class="col-12 mt-2">
-          <div class="form-floating mb-3">
-            <input
-              oninput="onFilter()"
-              type="text"
-              class="form-control filteredBy"
-              id="floatingInput"
-              placeholder="name@example.com"
-            />
-            <label for="floatingInput">חיפוש</label>
+        <div class="row">
+          <div class="col-auto col-lg-11 mt-2">
+            <div class="form-floating mb-3">
+              <input
+                oninput="onFilter()"
+                type="text"
+                class="form-control filteredBy"
+                id="floatingInput"
+                placeholder="name@example.com"
+              />
+              <label for="floatingInput">חיפוש</label>
+            </div>
+          </div>
+          <div class="col-1 mt-2 deleteBtn">
+            <button
+              onclick="deleteFilter()"
+              type="button"
+              class="btn btn-lg btn-danger"
+            >
+              <i class="bi bi-trash3-fill"></i>
+            </button>
           </div>
         </div>
         <div class="col-12">
