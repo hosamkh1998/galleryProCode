@@ -1,3 +1,14 @@
 .header{
     border-bottom: 3px solid #000;
 }
+
+.itemProduct{
+    width: 18rem;
+}
+
+
+@media screen and (max-width: 770px) {
+    .itemProduct{
+        width: 100%;
+    }
+}

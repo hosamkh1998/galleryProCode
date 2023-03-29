@@ -56,7 +56,7 @@ var productsList = document.querySelector(".productsList");
 function renderProducts() {
   htmlStr = "";
   productsFiltered.forEach(function (product) {
-    htmlStr += `<div class="card ms-2 mb-2" style="width: 18rem">
+    htmlStr += `<div class="card ms-2 mb-2 itemProduct">
         <img
           src="${product.image}"
           class="card-img-top mt-1"
